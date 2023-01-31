@@ -40,6 +40,7 @@ void print_list(const listint_t *list);
 /* swapping functions*/
 void swap_nodes(listint_t **list, listint_t *node);
 void swap_node(listint_t **head, listint_t **nodes1, listint_t *nodes2);
+void swap(int *a, int *b);
 
 /* Sorting algoritms */
 void bubble_sort(int *array, size_t size);
