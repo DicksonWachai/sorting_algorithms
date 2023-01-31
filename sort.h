@@ -51,6 +51,8 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
+void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
